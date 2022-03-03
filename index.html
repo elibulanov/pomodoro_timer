@@ -22,9 +22,15 @@
         <div>
           <input type="text" id="pomodoro-clock-task" placeholder="Enter your task..." />
         </div>
-        <div id="pomodoro-timer">
+        <!-- <div id="pomodoro-timer">
           <label id="minutes">00</label>:<label id="seconds">00</label>
+          <h2 id="Time"></h2>
+        </div> -->
+        <div onLoad='getDate()' style="text-align: center">
+            <h2 id="Time"></h2>
         </div>
+
+
         <div id="pomodoro-clock-actions">
           <button id="pomodoro-start">
             <i class="fas fa-play" id="play-icon"></i>

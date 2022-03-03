@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let minutesLabel = document.getElementById("minutes");
     let secondsLabel = document.getElementById("seconds");
     
-   const currentTime = document.querySelector("#pomodoro-timer", {
-        
+
+    const currentTime = document.querySelector("#pomodoro-timer", {
+      
   });
   
     // START
@@ -102,10 +103,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (hours > 0) result += `${hours}:`;
       result += `${addLeadingZeroes(minutes)}:${addLeadingZeroes(seconds)}`;
-      // currentTime.text.innerText = result.toString();
-
-      // shows time result add to display !!!!!! ------ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      
       console.log(result);
+      // add result to string
+      document.getElementById("Time").innerHTML = result.toString();
     };
   
     const stopClock = () => {
