@@ -14,6 +14,10 @@
   align-items: center;
 }
 
+.timeDisplay {
+  padding-top: 30px;
+}
+
 #pomodoro-clock {
   display: flex;
   flex-direction: column;
