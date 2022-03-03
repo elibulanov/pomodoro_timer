@@ -1,8 +1,3 @@
-// https://inspiredwebdev.com/create-pomodoro-clock/
-
-// test
-
-//test
 document.addEventListener("DOMContentLoaded", () => {
 
     const startButton = document.querySelector("#pomodoro-start");
@@ -32,14 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
     let isClockStopped = true;
 
-    // FIX TIME DISPLAY WITHOUT PROGRESSBAR
-  //   let minutesLabel = document.getElementById("minutes");
-  //   let secondsLabel = document.getElementById("seconds");
-    
-
-  //   const currentTime = document.querySelector("#pomodoro-timer", {
-      
-  // });
   
     // START
     startButton.addEventListener("click", () => {

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <script src='progressBar.js'></script>
     <script src='script.js'></script>
+    
   </head>
 
   <body>
@@ -26,8 +27,8 @@
           <label id="minutes">00</label>:<label id="seconds">00</label>
           <h2 id="Time"></h2>
         </div> -->
-        <div class="timeDisplay" onLoad='getDate()' style="text-align: center">
-          <label id="Time">25:00</label>
+        <div class="timeDisplay" onLoad='getTime()' style="text-align: center">
+          <label id="Time" value="">00:00</label>
         </div>
 
 
@@ -41,10 +42,7 @@
           </button>
         </div>
         <div id="pomodoro-clock-title">
-          <span>
-            Changes made here will reflect at the start of the next work /
-            break session
-          </span>
+          
         </div>
         <div id="pomodoro-clock-actions">
           <div class="pomodoro-input">
